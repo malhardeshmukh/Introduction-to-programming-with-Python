@@ -1,6 +1,6 @@
 def revswap(s):
     s=s.swapcase()
-    istring=''
+    string=''
     for item in s:
-        istring=item + istring
-    return istring
+        string=item + istring
+    return string

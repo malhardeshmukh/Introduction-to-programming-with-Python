@@ -1,0 +1,6 @@
+def revswap(s):
+    s=s.swapcase()
+    istring=''
+    for item in s:
+        istring=item + istring
+    return istring
